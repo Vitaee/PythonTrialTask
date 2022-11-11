@@ -1,0 +1,6 @@
+aiohttp==3.8.3
+bs4
+pandas
+django
+gunicorn
+django-heroku

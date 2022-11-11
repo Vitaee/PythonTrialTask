@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+      table {
+          border-collapse: collapse;
+          border: 2px black solid;
+          font: 12px sans-serif;
+      }
+
+      td {
+          border: 1px black solid;
+          padding: 5px;
+      }
+  </style>
+
+    <title>Python Task | Data</title>
+  </head>
+  <body>
+    <main>
+        <h1>Your courses scraped!</h1>  
+    </main>
+
+
+    <br>
+
+    <a href="{% url 'index' %}">Go Home</a>
+
+
+    <br>
+
+    <h4> Your CSV File is here! </h4>
+
+    <a href="{% url 'download_csv_file' %}"> Download this csv file!</a>
+    <br>
+
+    {{ data | safe }}
+
+  
+  </body>
+</html>
+

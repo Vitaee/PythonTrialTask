@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Python Task</title>
+  </head>
+  <body>
+    <main>
+        <h1>Welcome to Python Coding Task</h1>  
+    </main>
+
+
+    
+    <form method="GET" action="{% url 'scrape' %}">
+      <label for="category">Choose a category:</label>
+      <select name="category" id="category">
+          <option value="---" selected> --- </option>
+          <option value="data-science">Data Science</option>
+          <option value="computer-science"> Computer Science</option>
+          <option value="information-technology"> Information Technology </option>
+          <option value="business">Business</option>
+          <option value="language-learning">Language Learning</option>
+          <option value="health">Health</option>
+          <option value="arts-and-humanities">Arts and Humanities</option>
+          <option value="personal-development">Personal Development</option>
+          <option value="social-sciences">Social Sciences</option>
+          <option value="math-and-logic">Math and Logic</option>
+          <option value="physical-science-and-engineering">Physical Science and Engineering</option>
+      </select>
+
+      <br>
+      <br>
+
+      <button type="submit">Scrape Category</button>
+    </form>
+
+  </body>
+</html>
+

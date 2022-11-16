@@ -125,5 +125,5 @@ async def main(dynamic_url):
     time_difference = time.time() - start_time
     print(f'Scraping time: %.2f seconds.' % time_difference)
 
-asyncio.run(main("math-and-logic"))
+#asyncio.run(main("math-and-logic"))
 

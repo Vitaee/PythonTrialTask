@@ -8,10 +8,15 @@ python task for CodingAllStars company. Scraping data from Coursera according to
 - ``` pip install -r requirement.txt```
 - ``` python3 manage.py runserver ```
 
-## Test
-Simply, open your browser then select category from a dropdown. Then click scrape button. 
+## Used Libraries
+- asyncio
+- aiohttp
+- BeautifulSoup
+- Django
 
-## ScreenShot of App
+
+## Example Screenshots of App.
+Simply, open your browser then select category from a dropdown. Then click scrape button. 
 
 ## Home Page
 ![HomePage](https://i.ibb.co/hMxjnQ2/HomePage.png)
